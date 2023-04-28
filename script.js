@@ -23,7 +23,6 @@ function gmailFunction() {
     document.body.removeChild(input);
     showCopiedText();
 }
-copyoutlook.addEventListener("click", myFunction);
 
 function outlookFunction() {
     var copied = document.getElementById("copyoutlook").innerText
@@ -45,4 +44,5 @@ function showCopiedText() {
       copiedPopUp.classList.add("hiddenPop");
     }, 3000);
   }
+
   
