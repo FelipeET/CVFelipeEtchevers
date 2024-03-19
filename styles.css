@@ -1,5 +1,6 @@
 .box{
     margin-top:2%;
+
 }
 .logo{
     width: 1em;
@@ -27,4 +28,8 @@
   
   .hiddenPop {
     display: none;
+  }
+
+  .undertitle {
+    color: #777777;
   }
